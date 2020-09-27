@@ -1,27 +1,27 @@
 {
-  "id": "5b1ff0f7-3860-4525-af39-138388b8bdbc",
+  "id": "16927114-9124-4825-8276-b32e78855054",
   "version": "2.0",
   "name": "iTMS Tester Advance Automation",
-  "url": "",
+  "url": "http://automationpractice.com/index.php?fbclid=IwAR1A0lyeHtJXRdvs8cYeq73l4XM0cHGwzTAQ7ukEcR_Zv0OiuGsz2hGssQ0",
   "tests": [{
-    "id": "90d9c582-8f95-4536-90c3-9826fb50ce14",
+    "id": "b4c33e9c-1fc0-4be1-88a3-49c30cd5aadf",
     "name": "Practice Form",
     "commands": [{
-      "id": "b4a7107a-5872-412b-a2a2-3d1de93794be",
+      "id": "c94c54de-047b-4a1f-8669-8d312f7b5a26",
       "comment": "",
       "command": "open",
-      "target": "http://www.practiceselenium.com/practice-form.html?fbclid=IwAR1nK65tqzMhJXAq4N4IvBa2IoKJmT6TJI34Y53BHhdh8Br8SSTPVhc_Lwg",
+      "target": "/practice-form.html?fbclid=IwAR2dzFK8Fan5pfr-MgWIOkaKntcyy2uSZ0H4E5QnaEsonrLQlwvC3Gfzl7M",
       "targets": [],
       "value": ""
     }, {
-      "id": "ccc81739-4304-4ed2-a0d4-56c3108111bb",
+      "id": "4737942b-b462-4f11-8528-b1003e880fcd",
       "comment": "",
       "command": "setWindowSize",
-      "target": "803x708",
+      "target": "653x708",
       "targets": [],
       "value": ""
     }, {
-      "id": "8c4fd478-78d8-4699-8f2f-373df66e5f38",
+      "id": "68854c69-49f6-4701-8ff9-8389b2ed66c7",
       "comment": "",
       "command": "click",
       "target": "name=firstname",
@@ -34,7 +34,7 @@
       ],
       "value": ""
     }, {
-      "id": "77c15128-f0c4-4e41-8e3b-99fe8ad653e3",
+      "id": "e3ac63d7-0e5b-467e-8a44-abee5d08cb6e",
       "comment": "",
       "command": "type",
       "target": "name=firstname",
@@ -47,7 +47,7 @@
       ],
       "value": "iTMS"
     }, {
-      "id": "8c061475-9efa-40b9-8814-48487f6c66eb",
+      "id": "ca9d5b37-2077-4c6f-acc8-45a611fb0db7",
       "comment": "",
       "command": "click",
       "target": "name=lastname",
@@ -60,7 +60,7 @@
       ],
       "value": ""
     }, {
-      "id": "15230dfb-3770-4f76-ab92-c7036d65a755",
+      "id": "f668ee30-7e21-41fc-adeb-bfb285fdb53c",
       "comment": "",
       "command": "type",
       "target": "name=lastname",
@@ -73,19 +73,18 @@
       ],
       "value": "Coaching"
     }, {
-      "id": "148668fb-f443-41a7-9ddd-4665174620fe",
+      "id": "59b588e0-22fc-448a-8ddb-ccc621641486",
       "comment": "",
       "command": "click",
-      "target": "css=h1",
+      "target": "css=.control-group:nth-child(6)",
       "targets": [
-        ["css=h1", "css:finder"],
-        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/h1", "xpath:idRelative"],
-        ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Practice Form')]", "xpath:innerText"]
+        ["css=.control-group:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "e9fb7359-fb2b-4500-8595-c7e939c5aad5",
+      "id": "4a006361-d4e9-42e6-9111-114b8933f1ac",
       "comment": "",
       "command": "click",
       "target": "id=exp-6",
@@ -98,7 +97,7 @@
       ],
       "value": ""
     }, {
-      "id": "5ea6beef-f0f2-4248-9e38-32f2e8968476",
+      "id": "5a4e8b55-ca7b-4128-81f3-9bf515586ab4",
       "comment": "",
       "command": "click",
       "target": "id=tea3",
@@ -112,40 +111,7 @@
       ],
       "value": ""
     }, {
-      "id": "b52b2360-2f98-4194-83b0-29ee4453012d",
-      "comment": "",
-      "command": "click",
-      "target": "css=.control-group:nth-child(11) > p:nth-child(3)",
-      "targets": [
-        ["css=.control-group:nth-child(11) > p:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[2]", "xpath:idRelative"],
-        ["xpath=//div[4]/p[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "3d2d4a75-8971-439d-b3ec-953adf8d7f25",
-      "comment": "",
-      "command": "click",
-      "target": "css=.control-group:nth-child(11) > p:nth-child(3)",
-      "targets": [
-        ["css=.control-group:nth-child(11) > p:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[2]", "xpath:idRelative"],
-        ["xpath=//div[4]/p[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "aff22d9b-a94e-4888-a324-c3f953816c74",
-      "comment": "",
-      "command": "doubleClick",
-      "target": "css=.control-group:nth-child(11) > p:nth-child(3)",
-      "targets": [
-        ["css=.control-group:nth-child(11) > p:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[2]", "xpath:idRelative"],
-        ["xpath=//div[4]/p[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b5288fac-566d-4cfe-b7dc-10e1163d7ad8",
+      "id": "35bd9959-ac34-47d3-aa71-39fb24f8cba6",
       "comment": "",
       "command": "click",
       "target": "id=tea2",
@@ -159,19 +125,7 @@
       ],
       "value": ""
     }, {
-      "id": "6ce4c98c-fc8d-4289-a6ff-a861fb836394",
-      "comment": "",
-      "command": "click",
-      "target": "css=.control-group:nth-child(11) > p:nth-child(4)",
-      "targets": [
-        ["css=.control-group:nth-child(11) > p:nth-child(4)", "css:finder"],
-        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[3]", "xpath:idRelative"],
-        ["xpath=//div[4]/p[3]", "xpath:position"],
-        ["xpath=//p[contains(.,'Oolong Tea')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "9dc81808-2b20-4c71-9340-8d4845fd7c54",
+      "id": "6122bff5-8e6b-40a5-89d3-b02216317da4",
       "comment": "",
       "command": "click",
       "target": "id=tool-0",
@@ -185,7 +139,7 @@
       ],
       "value": ""
     }, {
-      "id": "db33d377-90ea-4363-a717-e3a68468ef89",
+      "id": "e13060e2-2a1a-4cc3-be86-711e3539da8d",
       "comment": "",
       "command": "click",
       "target": "id=tool-1",
@@ -198,7 +152,7 @@
       ],
       "value": ""
     }, {
-      "id": "9c5a726a-5816-48e5-b308-8d0d06d61923",
+      "id": "6048c948-dbe8-4be5-8c10-5afd96fcea34",
       "comment": "",
       "command": "click",
       "target": "id=continents",
@@ -212,14 +166,14 @@
       ],
       "value": ""
     }, {
-      "id": "d230d80a-fb10-4f52-b232-feee92c2f333",
+      "id": "2e51fa2b-f328-481f-aebd-816ec5c35ddf",
       "comment": "",
       "command": "select",
       "target": "id=continents",
       "targets": [],
       "value": "label=Asia"
     }, {
-      "id": "9be32ba8-61cf-4f40-81a0-3037507d9ba2",
+      "id": "509c7227-7c5b-43ca-b14f-c85e6710e697",
       "comment": "",
       "command": "click",
       "target": "id=continents",
@@ -233,7 +187,7 @@
       ],
       "value": ""
     }, {
-      "id": "7802c878-755f-4e01-8c4e-3a157db9671d",
+      "id": "56827d45-2ae3-4013-b384-e39720e40b56",
       "comment": "",
       "command": "addSelection",
       "target": "id=selenium_commands",
@@ -247,7 +201,7 @@
       ],
       "value": "label=Browser Commands"
     }, {
-      "id": "b7c16c84-aed2-46db-940a-d27dbc3969c9",
+      "id": "ab3d6383-4d68-4da5-b8a5-46372064f914",
       "comment": "",
       "command": "addSelection",
       "target": "id=selenium_commands",
@@ -261,7 +215,18 @@
       ],
       "value": "label=Wait Commands"
     }, {
-      "id": "31c93c9e-5b14-4e14-9087-e99f424d9741",
+      "id": "63dcf463-e53c-46b1-afb9-a6893ee650bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[9]/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div[9]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71223c11-05bf-49f1-b6f4-0c318af83ef6",
       "comment": "",
       "command": "click",
       "target": "id=submit",
@@ -276,7 +241,7 @@
       ],
       "value": ""
     }, {
-      "id": "b0547b9b-fb07-40dc-a28e-af04e6b96d3d",
+      "id": "5a690568-06ac-4d97-ad84-7a51c1716562",
       "comment": "",
       "command": "assertText",
       "target": "css=h1",
@@ -288,27 +253,24 @@
       "value": "We're passionate about tea. "
     }]
   }, {
-    "id": "0e39a8a4-0bd2-4032-be73-f2c1cae84985",
+    "id": "ca61a90b-0374-48d8-ad78-8ca4a9016d8c",
     "name": "Switch Windows",
     "commands": [{
-      "id": "278beebd-1d3f-4c9a-b828-cd352cef58e3",
+      "id": "5dbc0d8a-1de2-4b63-87dc-9ef4cf64d714",
       "comment": "",
       "command": "open",
-      "target": "https://itmscoaching.herokuapp.com/switch-window?fbclid=IwAR1nK65tqzMhJXAq4N4IvBa2IoKJmT6TJI34Y53BHhdh8Br8SSTPVhc_Lwg",
+      "target": "https://itmscoaching.herokuapp.com/switch-window?fbclid=IwAR3A1F9xrvzUiXVKBvSgeNXIFeFz9aModmo9lfJBWC8swSwWHSviRusFoVs",
       "targets": [],
       "value": ""
     }, {
-      "id": "1a2770cc-6b49-4b3b-bf1b-94d8b8658fa9",
+      "id": "259cde05-cd2b-4f5a-865a-d353da862c29",
       "comment": "",
-      "command": "click",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
+      "command": "setWindowSize",
+      "target": "653x708",
+      "targets": [],
       "value": ""
     }, {
-      "id": "8ffc87d9-0cae-4a11-acce-ad52882b48e1",
+      "id": "d22a151b-4b4d-4c90-b810-8f2a393fdfd1",
       "comment": "",
       "command": "click",
       "target": "id=new-tab-button",
@@ -321,31 +283,31 @@
       ],
       "value": "",
       "opensWindow": true,
-      "windowHandleName": "win2709",
+      "windowHandleName": "win9439",
       "windowTimeout": 2000
     }, {
-      "id": "d80b5d2d-7c82-450f-80ac-c2bd27cc60a8",
+      "id": "d25729ab-8e0b-4a00-b1b9-65a3fc98788b",
       "comment": "",
       "command": "storeWindowHandle",
       "target": "root",
       "targets": [],
       "value": ""
     }, {
-      "id": "b2b49021-cbaf-4d0c-b0bd-193399b419d5",
+      "id": "6df348d7-a41c-44ac-9e25-17a275eb00be",
       "comment": "",
       "command": "selectWindow",
-      "target": "handle=${win2709}",
+      "target": "handle=${win9439}",
       "targets": [],
       "value": ""
     }, {
-      "id": "cf151760-c46e-4d72-87ba-f2cbf2473b14",
+      "id": "7c18c382-726c-4e05-afea-5e5af81f097f",
       "comment": "",
       "command": "selectWindow",
       "target": "handle=${root}",
       "targets": [],
       "value": ""
     }, {
-      "id": "39962d1e-6c1b-4d4f-b5cd-f667a840b4c1",
+      "id": "aa86cd5e-7349-4d9d-b8f1-686212c263a1",
       "comment": "",
       "command": "click",
       "target": "id=alert-button",
@@ -358,35 +320,49 @@
       ],
       "value": ""
     }, {
-      "id": "7e8c45bd-0d16-4ed3-8d12-23612f87f8cb",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.form-group:nth-child(2) > .col-sm-8",
-      "targets": [
-        ["css=.form-group:nth-child(2) > .col-sm-8", "css:finder"],
-        ["xpath=//div[2]/div", "xpath:position"]
-      ],
-      "value": "Open alert"
-    }, {
-      "id": "b3c334a3-990b-4df8-967e-796f8bda6bd6",
+      "id": "19ceb2ca-a049-49c1-94d0-4895b159df94",
       "comment": "",
       "command": "assertAlert",
       "target": "This is a test alert!",
       "targets": [],
       "value": ""
+    }, {
+      "id": "69ecd669-dcda-4539-ba05-fe563b2cd883",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(2)",
+      "targets": [
+        ["css=.form-group:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
     }]
   }, {
-    "id": "7ed576a4-daf6-466d-89a2-1e4833130153",
+    "id": "9c13125d-827c-4a12-bb05-349101335851",
     "name": "Verify",
     "commands": [{
-      "id": "2e95e0a1-ab45-4e4f-a91f-9b0f194aca21",
+      "id": "dbbd573c-2632-4ae9-a7d9-41dc06ba197e",
       "comment": "",
       "command": "open",
-      "target": "http://automationpractice.com/index.php?fbclid=IwAR1nK65tqzMhJXAq4N4IvBa2IoKJmT6TJI34Y53BHhdh8Br8SSTPVhc_Lwg",
+      "target": "http://automationpractice.com/index.php?fbclid=IwAR1A0lyeHtJXRdvs8cYeq73l4XM0cHGwzTAQ7ukEcR_Zv0OiuGsz2hGssQ0",
       "targets": [],
       "value": ""
     }, {
-      "id": "8896b9c9-c30d-4620-8289-29bd3a724db6",
+      "id": "b929b524-c3b9-4d92-92fe-5afa591eba84",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "653x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aabd0e0f-43ba-48e4-a6f4-4912a4af4bb6",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e3a4fa3-1745-486d-a73b-e7383a2f6c95",
       "comment": "",
       "command": "click",
       "target": "linkText=Sign in",
@@ -401,7 +377,14 @@
       ],
       "value": ""
     }, {
-      "id": "c2709d11-bcd7-4ea3-826d-384ff07dcf6a",
+      "id": "e54c7db6-03de-46f8-94ed-de90a96a86f9",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Login - My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "beaff922-9bc5-4d3b-8430-18a07e8593b3",
       "comment": "",
       "command": "click",
       "target": "css=#SubmitLogin > span",
@@ -412,27 +395,27 @@
       ],
       "value": ""
     }, {
-      "id": "5a73da51-6c3e-4284-8a30-2767218e63bf",
+      "id": "2a8637d1-bbee-45f6-8673-4fdb8f0207c7",
       "comment": "",
-      "command": "assertText",
-      "target": "css=.alert > p",
+      "command": "verifyText",
+      "target": "css=ol > li",
       "targets": [
-        ["css=.alert > p", "css:finder"],
-        ["xpath=//div[@id='center_column']/div/p", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div/p", "xpath:position"],
-        ["xpath=//p[contains(.,'There is 1 error')]", "xpath:innerText"]
+        ["css=ol > li", "css:finder"],
+        ["xpath=//div[@id='center_column']/div/ol/li", "xpath:idRelative"],
+        ["xpath=//ol/li", "xpath:position"],
+        ["xpath=//li[contains(.,'An email address required.')]", "xpath:innerText"]
       ],
-      "value": "There is 1 error"
+      "value": "An email address required."
     }]
   }],
   "suites": [{
-    "id": "d7721ed3-f220-43bf-9630-28af3f6928b2",
+    "id": "cd7653e9-756a-4699-852d-f062493f07f6",
     "name": "Default Suite",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["90d9c582-8f95-4536-90c3-9826fb50ce14"]
+    "tests": ["b4c33e9c-1fc0-4be1-88a3-49c30cd5aadf"]
   }],
-  "urls": ["http://www.practiceselenium.com/", "http://www.practiceselenium.com/practice-form.html?fbclid=IwAR1nK65tqzMhJXAq4N4IvBa2IoKJmT6TJI34Y53BHhdh8Br8SSTPVhc_Lwg", "http://automationpractice.com/index.php?fbclid=IwAR1nK65tqzMhJXAq4N4IvBa2IoKJmT6TJI34Y53BHhdh8Br8SSTPVhc_Lwg", "https://itmscoaching.herokuapp.com/switch-window?fbclid=IwAR1nK65tqzMhJXAq4N4IvBa2IoKJmT6TJI34Y53BHhdh8Br8SSTPVhc_Lwg"],
+  "urls": ["http://www.practiceselenium.com/", "https://itmscoaching.herokuapp.com/switch-window?fbclid=IwAR3A1F9xrvzUiXVKBvSgeNXIFeFz9aModmo9lfJBWC8swSwWHSviRusFoVs", "http://automationpractice.com/index.php?fbclid=IwAR1A0lyeHtJXRdvs8cYeq73l4XM0cHGwzTAQ7ukEcR_Zv0OiuGsz2hGssQ0"],
   "plugins": []
 }
